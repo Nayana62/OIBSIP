@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#wrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: rgb(200, 200, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 5rem;
+}
+
+.hero{
+    display: flex;
+    width: 80%;
+    margin-top: 10rem;
+}
+
+.hero > img{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.hero-side{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.hero-side > h1{
+    font-style: italic;
+    font-size: 60px;
+}
+
+.hero-side > h2{
+    font-style: italic;
+}
+
+.hero-side > p{
+    width: 90%;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.hero-side > pre{
+    width: 90%;
+   text-align: end;
+   font-style: italic;
+}
+
+.about__section{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.about{
+    text-align: center;
+}
+
+.biography{
+    display: block;
+    margin-top: 1.2rem; 
+}
+
+.biography > h3{
+    padding: 0.8rem;
+}
+
+.biography > ul{
+    padding-left: 3rem;
+}
+
+.more__info{
+    padding: 2rem;
+    text-align: right;
+}
+
+@media(max-width: 900px) {
+   .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+}
+
