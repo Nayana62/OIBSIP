@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+
+        <table class="calculator">
+            <tr>
+                <td class="result" colspan="4"></td>
+            </tr>
+
+            <tr>
+                <td class="btn blue clear">C</td>
+                <td class="btn blue backSpace">&larr;</td>
+                <td class="btn blue">%</td>
+                <td class="btn blue">&radic;</td>
+            </tr>
+
+            <tr>
+                <td class="btn blue">&#40;</td>
+                <td class="btn blue">&#41;</td>
+                <td class="btn blue" data-num="/">/</td>
+                <td class="btn blue" data-num="*">*</td>
+            </tr> 
+
+            <tr>
+                <td class="btn" data-num="7">7</td>
+                <td class="btn" data-num="8">8</td>
+                <td class="btn" data-num="9">9</td>
+                <td class="btn blue" data-num="-">-</td>
+            </tr>
+
+            <tr>
+                <td class="btn" data-num="4">4</td>
+                <td class="btn" data-num="5">5</td>
+                <td class="btn" data-num="6">6</td>
+                <td class="btn blue" data-num="+">+</td>
+            </tr>
+
+            <tr>
+                <td class="btn" data-num="1">1</td>
+                <td class="btn" data-num="2">2</td>
+                <td class="btn" data-num="3">3</td>
+                <td class="btn orange" rowspan="2">=</td>
+            </tr>
+
+            <tr>
+                <td class="btn zero" colspan="2" data-num="0">0</td>
+                <td class="btn" data-num=".">.</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
